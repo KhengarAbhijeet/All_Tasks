@@ -5,22 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple HTML</title>
+    <script src="https://kit.fontawesome.com/bf87daee3d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
     <header>
-        <h2>Simple Form</h2>
+        <div class="headdiv">
+            <h2><i class="fab fa-apple"></i>  Simple Form</h2>
+        </div>
+        
     </header>
     <section>
         <nav>
             <ul>
-                <li><a href="LearnHTML.html">Home</a></li>
+                <li><a href="LearnHTML.html"><i class="fas fa-home"></i> Home</a></li>
                 <li><a href="#">New york</a></li>
                 <li><a href="#">Wales</a></li>
             </ul>
         </nav>
 
+        <div class="formdiv"></div>
         <article>
+        
             <h1>Sample form</h1>
             <form action="">
                 <table>
@@ -46,7 +52,7 @@
                     <tr>
                         <td>Address</td>
                         <td>
-                            <textarea name="address" id="add" cols="30" rows="10" ></textarea>
+                            <textarea name="address" id="add" cols="30" rows="10"></textarea>
                         </td>
                     </tr>
                     <tr>
@@ -58,7 +64,7 @@
                     <tr>
                         <td>Hobbies</td>
                         <td>
-                            <input type="checkbox" name="hob1" id="hob1">Singing&nbsp;&nbsp; 
+                            <input type="checkbox" name="hob1" id="hob1">Singing&nbsp;&nbsp;
                             <input type="checkbox" name="hob2" id="hob2">Dancing&nbsp;&nbsp;
                             <input type="checkbox" name="hob3" id="hob3">Reading&nbsp;&nbsp;
                         </td>
@@ -70,10 +76,17 @@
                     </tr>
                 </table>
             </form>
+        
         </article>
+        </div>
     </section>
+    <div class="footerdiv">
     <footer>
-        <p>&copy footer</p>
+        
+            <p>&copy footer</p>
+        
+        
     </footer>
+</div>
 </body>
 </html>
