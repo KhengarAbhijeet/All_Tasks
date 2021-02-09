@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0vw;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color: rgb(0, 225, 255);
+            padding: 2vw;
+            text-align: center;
+            font-size: 3vw;
+            color: white;
+        }
+        section{
+            margin: 0vw;
+            background-color: rgb(201, 236, 245);
+        }
+        nav{
+            float: left;
+            width: 20%;
+            height: auto; /*only for demonstration, should be removed*/
+            background: rgb(201, 236, 245);
+            padding: 20px;
+        }
+        ul{
+            list-style: none;
+            text-align: center;
+            padding: 0vw;
+        }
+        nav ul li a{
+            text-decoration: none;
+            display: block;
+            color: rgb(10, 47, 82);
+            padding: 1vw;
+        }
+        nav ul li a:hover{
+            color: white;
+            background-color: rgb(6, 218, 247);
+        }
+        article{
+            float: left;
+            padding: 20px;
+            width: 80%;
+            background-color: #f1f1f1;
+            height: auto
+        }
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+}
+        footer {
+            background-color: rgb(0, 225, 255);
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        p{
+            text-align: justify;
+            padding: 10px
+        }
+        img{
+            display: block;
+            height: 30vw;
+            float: right;
+            padding: 10px;
+            
+        }
+        @media (max-width: 600px) {
+            nav, article, img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Welcome</h2>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="/formHTML.html">HTML Form</a></li>
+                <li><a href="#">New york</a></li>
+                <li><a href="#">Wales</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            
+            <h1>London</h1>
+            <p>
+                London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.
+                London is the capital of England and the United Kingdom and one of the largest and most important cities in the world. The area was originally settled by early hunter gatherers around 6,000 B.C., and researchers have found evidence of Bronze Age bridges and Iron Age forts near the River Thames.
+            </p>
+            <img src="https://imageproxy.themaven.net//https%3A%2F%2Fwww.history.com%2F.image%2FMTYyNDg1MjE3MTI1Mjc5Mzk4%2Ftopic-london-gettyimages-760251843-promo.jpg" alt="London Image" >
+            <p>
+                Ancient Romans founded a port and trading settlement called Londinium in 43 A.D., and a few years later a bridge was constructed across the Thames to facilitate commerce and troop movements. But in 60 A.D., Celtic queen Boudicca led an army to sack the city, which was burned to the ground in the first of many fires to destroy London.
+                <br>
+                <br>
+                The city was soon rebuilt, but burned again about 125 A.D. More rebuilding occurred, and within a few generations the population exceeded 40,000 people. After the fall of the Roman Empire in 476 A.D., however, the city was attacked numerous times by Vikings and other raiders, and soon London was largely abandoned.
+                <br>
+                <br>
+                The city’s fortunes began to change in 1065, when Westminster Abbey was established. One year later, after his victory at the Battle of Hastings, William the Conqueror was crowned King of England. During his reign, the Tower of London was built, and in 1176 a wooden London Bridge that had repeatedly burned was replaced by a bridge of stone.
+            </p>
+            </article>
+    </section>
+    <footer>
+        <p>&copy footer</p>
+    </footer>
+</body>
+</html>

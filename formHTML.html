@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0vw;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color: rgb(0, 225, 255);
+            padding: 2vw;
+            text-align: center;
+            font-size: 3vw;
+            color: white;
+        }
+        section{
+            margin: 0vw;
+            background-color: rgb(201, 236, 245);
+        }
+        nav{
+            float: left;
+            width: 20%;
+            height: auto; /*only for demonstration, should be removed*/
+            background: rgb(201, 236, 245);
+            padding: 20px;
+        }
+        ul{
+            list-style: none;
+            text-align: center;
+            padding: 0vw;
+        }
+        nav ul li a{
+            text-decoration: none;
+            display: block;
+            color: rgb(10, 47, 82);
+            padding: 1vw;
+        }
+        nav ul li a:hover{
+            color: white;
+            background-color: rgb(6, 218, 247);
+        }
+        article{
+            float: left;
+            padding: 20px;
+            width: 80%;
+            background-color: #f1f1f1;
+            height: auto
+        }
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+}
+        footer {
+            background-color: rgb(0, 225, 255);
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        p{
+            text-align: justify;
+            padding: 10px
+        }
+        form{
+            padding: 0.5vw;
+        }
+        table{
+            float: left;
+            width: 40vw;
+        }
+        td{
+            padding: 1vw;
+            width: 100px;
+        }
+        input, textarea{
+            border-radius: 3px;
+            padding: 0.5vw;
+            background-color: rgba(206, 244, 250, 0.651);
+        }
+        .textbox{
+            width: 100%;
+        }
+        .btn{
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            nav, article, img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Simple Form</h2>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="/LearnHTML.html">Home</a></li>
+                <li><a href="#">New york</a></li>
+                <li><a href="#">Wales</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h1>Sample form</h1>
+            <form action="">
+                <table>
+                    <tr>
+                        <td>First Name</td>
+                        <td>
+                            <input type="text" name="fname" id="fname" class="textbox">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td>
+                            <input type="text" name="lname" id="lname" class="textbox">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>
+                            <input type="radio" name="gender" value="Male">Male
+                            <input type="radio" name="gender" value="Female">Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>
+                            <textarea name="address" id="add" cols="30" rows="10" ></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Contact no</td>
+                        <td>
+                            <input type="number" name="phone" id="phone" class="textbox">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Hobbies</td>
+                        <td>
+                            <input type="checkbox" name="hob1" id="hob1">Singing&nbsp;&nbsp; 
+                            <input type="checkbox" name="hob2" id="hob2">Dancing&nbsp;&nbsp;
+                            <input type="checkbox" name="hob3" id="hob3">Reading&nbsp;&nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" value="Submit" class="btn">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </article>
+    </section>
+    <footer>
+        <p>&copy footer</p>
+    </footer>
+</body>
+</html>
