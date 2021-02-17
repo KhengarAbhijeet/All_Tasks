@@ -1,5 +1,5 @@
 body{
-  background-image: url('/Demo/images/bw1.gif');  
+  background-image: url('F:/Doc/Personal/Abhi/Practice/Training/simple-portfolio/All_Tasks/images/bw1.gif');  
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: relative;
@@ -37,6 +37,10 @@ body{
   width: 10px;
   height: 10px;
   border-radius: 40%;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link{
+  border-bottom: 1px solid white;
 }
 
 .carousel-item{

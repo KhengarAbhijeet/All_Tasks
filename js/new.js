@@ -1,9 +1,24 @@
 $(document).ready(function(){
-  
-  // $(".divhome").click(function() {
-  //   $(".divhome").css({"animation":"1s ease-out 0s 1 slideUp"});  
-  // })
-  $('[data-spy="scroll"]').on('activate.bs.scrollspy', function () {
-    $('.newnav').css({"border-bottom ":"1px solid white"});
+    $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:10,
+      // nav:true,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:3
+          },
+          1000:{
+              items:5
+          }
+      }
+    });
+  $('#home').on('activate.bs.scrollspy', function () {
+    $('.divhome').removeClass("fadeInUp");
+    setTimeout(function(){
+      $('.divhome').addClass("fadeInUp");
+    },500);
   });
 });
