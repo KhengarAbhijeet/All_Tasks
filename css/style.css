@@ -1,0 +1,71 @@
+body{
+  background-image: url('/Demo/images/bw1.gif');  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.test{
+  background: rgba(17, 193, 247, 0.521);
+  /* background: aqua; */
+  width: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* height: 100vh; */
+}
+.mynav{
+  background: transparent;
+}
+
+.divhome{
+  animation: 1s ease-out 0s 1 slideUp;
+  padding-top: 20vh;
+  height: 100vh;
+  text-align: center;
+  color: white;
+}
+
+.divhome h1{
+  font-size: 8vw;
+}
+
+.about{
+  padding-top: 25vh;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 40%;
+}
+
+.carousel-item{
+  background: rgba(240, 248, 255, 0.164);
+  width: 33%;
+}
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+  transform: translateX(33.33%);
+}
+
+.carousel-inner .carousel-item-left.active, 
+.carousel-inner .carousel-item-prev {
+  transform: translateX(-33.33%)
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+  }
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
