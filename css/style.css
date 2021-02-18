@@ -1,28 +1,48 @@
 body{
-  background-image: url('F:/Doc/Personal/Abhi/Practice/Training/simple-portfolio/All_Tasks/images/bw1.gif');  
+  /* background-image: url('../images/bw1.gif');   */
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: relative;
 }
 
 .test{
+  
+}
+.test .video video{
+  position: fixed;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.test .content{
+  position: relative;
+  z-index: 1;
   background: rgba(17, 193, 247, 0.521);
-  /* background: aqua; */
-  width: auto;
+  width: 100%;
+  /* height: 100vh; */
   background-repeat: no-repeat;
   background-attachment: fixed;
-  /* height: 100vh; */
+  justify-content: center;
+  align-items: center;
 }
 .mynav{
   background: transparent;
 }
 
-.divhome{
+.divhome, .about, .serv, .skill, .work, .tst, .cont{
   animation: 1s ease-out 0s 1 slideUp;
   padding-top: 20vh;
+  padding-bottom: 35vh;
   height: 100vh;
   text-align: center;
   color: white;
+}
+.about, .serv, .skill, .work, .tst, .cont{
+  margin-top: 20vh;
 }
 
 .divhome h1{
@@ -33,33 +53,240 @@ body{
   padding-top: 25vh;
 }
 
-.carousel-indicators li {
-  width: 10px;
-  height: 10px;
-  border-radius: 40%;
+.imgab{
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 40px rgba(0,0,0,.3);
+  box-shadow: 0 0 40px rgba(0,0,0,.3);
 }
+
+
 
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link{
   border-bottom: 1px solid white;
 }
 
-.carousel-item{
-  background: rgba(240, 248, 255, 0.164);
-  width: 33%;
+.ca, .cs, .testimonials-section .item{
+  background-color: rgba(234, 235, 233, 0.5);
+  border-radius: 8px;
+  align-items: center;
 }
-.carousel-inner .carousel-item-right.active,
-.carousel-inner .carousel-item-next {
-  transform: translateX(33.33%);
+.ca{
+  padding: 15px;
+  height: 25vh;
+}
+.ca:hover, .cs:hover, .testimonials-section .item:hover{
+  background-color: white;
+  color: black;
+}
+.owl-dots .owl-dot {
+  border-radius: 3px;
+}
+.owl-dots {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin-top: 50px
+}
+.owl-carousel .owl-dots .owl-dot {
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  background: rgba(255, 255, 255, .2)
 }
 
-.carousel-inner .carousel-item-left.active, 
-.carousel-inner .carousel-item-prev {
-  transform: translateX(-33.33%)
+.owl-carousel .owl-dots .owl-dot:focus {
+  outline: none
+}
+.owl.dots, .owl.dot{
+  margin-bottom: 30px;
 }
 
-.carousel-inner .carousel-item-right,
-.carousel-inner .carousel-item-left{ 
-  transform: translateX(0);
+.owl-carousel .owl-dots .owl-dot.active {
+  background: #fff
+}
+
+.cs{
+  padding-top: 30vh;
+  padding: 15px;
+  height: 50vh;
+}
+
+.fa,.service-icon{
+  padding: 40px;
+  font-size: 5vh;
+}
+/*---------------------------Skills---------------------------*/
+.skills-row {
+  margin-top: 80px;
+}
+.skill-item {
+  border-bottom: 1px solid rgba(250,250,250,0.1);
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+.last-skill {
+  border-bottom: none;
+}
+.skills-row span {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #fff;
+  color: #1e1e1e;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: 700;
+  left: 0;
+  top: -21px;
+  position: absolute;
+  z-index: 999;
+}
+.skills-row h6 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  text-align: right;
+  margin-bottom: -10px;
+}
+.skill-bar {
+  width: 70%;
+  height: 6px;
+  border-radius: 3px;
+  background-color: rgba(250,250,250,0.25);
+  position: relative;
+}
+.filled-bar {
+  position: absolute;
+  z-index: 99;
+  width: 64%;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.filled-bar-2 {
+  position: absolute;
+  z-index: 99;
+  width: 82%;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+/*---------------------------Work block---------------------------*/
+.gallery-section {
+  text-align: center;
+}
+.portfolio-item img {
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 9;
+  border-radius: 10px;
+}
+.portfolio-item .thumb-inner {
+  position: absolute;
+  z-index: 99;
+  bottom: 0;
+  text-align: left;
+  padding: 20px;
+  background-color: rgba(250,250,250,0.25);
+  width: 100%;
+  height: 60px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.portfolio-item .thumb-inner h4 {
+  margin-bottom: 0;
+  font-size: 16px;
+  margin-top: 0px;
+}
+.portfolio-item .thumb-inner p {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  margin-bottom: 0px;
+}
+.portfolio-item:hover .thumb-inner p {
+  position: relative;
+  opacity: 1;
+  visibility: visible;
+  color: #4a4a4a;
+}
+.portfolio-item:hover .thumb-inner {
+  border-radius: 10px;
+  height: 100%;
+  background-color: rgba(250,250,250,0.9)
+}
+.portfolio-item:hover .thumb-inner h4 {
+   margin-top: 30%;
+  color: #1e1e1e;
+  margin-bottom: 20px;
+}
+
+
+/*---------------------------Testimonials block---------------------------*/
+
+.testimonials-section .item {
+  background-color: rgba(250,250,250,0.25);
+  padding: 40px;
+  border-radius: 10px;
+}
+.testimonials-section .item img {
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+}
+.testimonials-section .item h4 {
+  margin-top: 40px;
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.testimonials-section .item p {
+  font-size: 17px;
+  font-style: italic;
+}
+
+.ts1 .item .tsimg{
+  height: 80px;
+  width: 80px;
+  border: black;
+}
+
+/*------------------------- contact ----------------------------*/
+#ajax-contact{
+  padding-top: 10vh;
+}
+.input-field{
+  padding: 10px;
+  
+}
+.form-control{
+  background-color: transparent;
+}
+.form-control:focus{
+  background-color: rgba(255, 255, 255, 0.384);
+  outline-style: none;
+  outline-color: teal;
+  border: none;
+}
+
+.btn{
+  background-color: rgba(221, 221, 221, 0.575);
+  color: #fff;
+  width: 100%;
+}
+.btn:hover{
+  background-color: white;
 }
 
 @keyframes slideUp {
