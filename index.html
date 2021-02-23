@@ -5,14 +5,28 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Some JS</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
   <script src="./pro.js"></script>
   <script src="./as.js"></script>
+  <script src="./bday.js"></script>
+  <script src="./guess.js"></script>
 </head>
 <body>
-  <div>
-    <ul id="students">
-
-    </ul>
+  <div class="container main">
+    <div class="form-group bday">
+      <label for="sick">Is Kayo sick?</label>
+      <button id="sick" onclick="isSick()" class="btn btn-danger">Sick</button>
+    </div>
+    <div class="game">
+      <button id="GG" onclick="handleGuess()" class="btn btn-primary">Play Guess Game</button>
+    </div>
+    <div class="data">
+      <ul id="students">
+  
+      </ul>
+    </div>
   </div>
+  
 </body>
 </html>
