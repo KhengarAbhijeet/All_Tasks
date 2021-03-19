@@ -1,0 +1,351 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "Incredible Metal Soap",
+      "brand": "Games",
+      "description": "Ut sit sed rem. Quod id cupiditate quia est.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "306.00",
+      "quantity": 81396,
+      "rating": 4,
+      "reviews": "Quia autem non quas est. Eaque sapiente repudiandae vel qui sunt. Itaque et qui quasi."
+    },
+    {
+      "id": 3,
+      "name": "Gorgeous Cotton Chips",
+      "brand": "Computers",
+      "description": "Dolore iusto molestias consectetur saepe repellat veniam. Rerum sit sapiente eos at nulla quis nobis ut vel. Eos non deleniti praesentium quod.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "239.00",
+      "quantity": 74278,
+      "rating": 4,
+      "reviews": "Harum odit dolor corrupti et veniam sunt minus. Quos quae quo quia in et nihil nihil nisi. Ex delectus non deleniti quaerat quo. Dolor odit molestias aut tenetur labore sapiente."
+    },
+    {
+      "id": 4,
+      "name": "Awesome Frozen Bike",
+      "brand": "Jewelery",
+      "description": "Neque quae omnis optio aut eligendi consequatur. Culpa vel sapiente alias fugit ab vel dolor sint. Ipsum molestias pariatur soluta vel praesentium consequatur omnis magni cum.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "842.00",
+      "quantity": 72594,
+      "rating": 4,
+      "reviews": "Sint aut ipsam fuga deserunt neque magni sed repellendus. Cupiditate maiores voluptas ab eos qui aut sint. Qui aliquam aliquam ullam sunt quia. Hic in nihil placeat sapiente voluptas aliquid ex numquam et. Assumenda qui ipsum. Perferendis quos quasi inventore deleniti in non in laborum."
+    },
+    {
+      "id": 5,
+      "name": "Refined Plastic Sausages",
+      "brand": "Toys",
+      "description": "Vel possimus voluptas accusantium. Aspernatur est et exercitationem sed dolorum. Id ipsum aperiam et qui pariatur. Numquam aut et qui voluptas inventore corrupti.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "946.00",
+      "quantity": 33640,
+      "rating": 4,
+      "reviews": "Quam eaque aliquam reprehenderit voluptatem sunt eaque corporis dolor est. Nemo similique rerum aut et aut et. Tenetur impedit eos ipsa dolorem sapiente. Voluptatibus hic ea cum. Quia voluptates eos eveniet commodi illum recusandae."
+    },
+    {
+      "id": 6,
+      "name": "Refined Frozen Soap",
+      "brand": "Movies",
+      "description": "Et voluptatem voluptates. Pariatur aut consequatur. Labore vero beatae harum quaerat dolores quaerat minus eveniet incidunt. Iusto quisquam possimus explicabo sed.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "299.00",
+      "quantity": 21593,
+      "rating": 4,
+      "reviews": "Soluta sequi ullam et. In eius omnis quia cupiditate harum asperiores. Quia voluptas ut expedita sed nesciunt. Enim omnis voluptas tempora dolorum laborum."
+    },
+    {
+      "id": 7,
+      "name": "Intelligent Steel Car",
+      "brand": "Clothing",
+      "description": "Sunt quia exercitationem aliquam qui ut dolorum maiores dolor. Soluta qui omnis aut dolore. Rerum et sunt aperiam quia exercitationem doloremque totam illum est. Sed et ut eaque quas non quia. Laboriosam distinctio est animi ut.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "708.00",
+      "quantity": 23329,
+      "rating": 4,
+      "reviews": "Doloremque illum sequi sed voluptatibus expedita aspernatur autem. Placeat laboriosam tempore delectus est id. Consequatur atque ut at hic velit eum."
+    },
+    {
+      "id": 8,
+      "name": "Unbranded Soft Sausages",
+      "brand": "Grocery",
+      "description": "Dolores ut fugiat. Et quam deleniti voluptates sunt nulla. Iure et vel ipsum. Molestiae molestias dolores explicabo saepe. Voluptas et alias omnis.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "605.00",
+      "quantity": 31912,
+      "rating": 4,
+      "reviews": "Et dolorum impedit consectetur quas. Corrupti inventore molestiae sed a est hic. At molestiae autem repellendus totam deserunt. Sed aut sint rerum magni. Est tenetur labore."
+    },
+    {
+      "id": 9,
+      "name": "Fantastic Plastic Bacon",
+      "brand": "Books",
+      "description": "Omnis est omnis perferendis eos molestiae voluptatem ipsam. Delectus qui sed dolorem quaerat possimus eos enim ut fugit. Ut mollitia incidunt itaque pariatur vitae ut ratione. Consequatur at sint magnam laboriosam sit voluptatum qui. Debitis iure quasi eos. Illo ipsum quis voluptas facilis quasi distinctio et minus et.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "93.00",
+      "quantity": 902,
+      "rating": 4,
+      "reviews": "Nisi qui voluptate veniam alias eum adipisci velit. Ducimus voluptatum veritatis aliquam iure. Facere voluptas atque incidunt quisquam perferendis est qui autem autem. Odio porro et fugit sit dolorem eos. Et est ipsam tenetur corporis et veritatis aut mollitia ut."
+    },
+    {
+      "id": 10,
+      "name": "Practical Concrete Sausages",
+      "brand": "Jewelery",
+      "description": "In eius sint doloremque hic vero culpa officia architecto dicta. Inventore sunt qui praesentium quae dicta iusto deleniti quia.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "756.00",
+      "quantity": 36928,
+      "rating": 4,
+      "reviews": "Itaque ducimus dolores temporibus esse quisquam officia quibusdam quam. Odio asperiores facere ducimus porro ea voluptates iure. Sit cum ab excepturi voluptatem fuga culpa qui deserunt. Ullam consequatur quos inventore voluptas saepe neque quia. Ratione dolores omnis vel esse quam."
+    },
+    {
+      "id": 11,
+      "name": "Handmade Granite Soap",
+      "brand": "Books",
+      "description": "Aut possimus consectetur itaque veritatis recusandae. Similique asperiores nemo sequi optio ut rem harum sed. Enim nesciunt iure odio eligendi ut sapiente. Quia qui et sed consectetur quibusdam omnis. Repellendus molestiae totam qui eos. Perferendis at soluta placeat vero error.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "395.00",
+      "quantity": 83214,
+      "rating": 4,
+      "reviews": "Voluptatibus exercitationem facilis consequuntur rerum odio non ducimus. Dignissimos eligendi nobis sunt deleniti voluptatum hic. Et aut tempore amet a."
+    },
+    {
+      "id": 12,
+      "name": "Awesome Steel Keyboard",
+      "brand": "Automotive",
+      "description": "Minima quaerat rerum ut veritatis qui vitae consectetur. Sequi aut ut.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "371.00",
+      "quantity": 20929,
+      "rating": 4,
+      "reviews": "Qui nihil voluptatum cumque. Dolor accusantium id voluptas fugit enim quis. Corporis vel et repellat. Inventore nam quo suscipit itaque ullam similique sed dolorem. Quo adipisci perspiciatis in ad at maiores et. Dolor ducimus est aliquid ipsam necessitatibus."
+    },
+    {
+      "id": 13,
+      "name": "Licensed Rubber Keyboard",
+      "brand": "Grocery",
+      "description": "Non labore tenetur doloremque ratione cupiditate quo eos est aspernatur. Ipsam illum vel dolor sequi at culpa iste excepturi. Voluptas reprehenderit quo. Non dolor hic omnis reprehenderit esse et necessitatibus reiciendis hic.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "26.00",
+      "quantity": 22896,
+      "rating": 4,
+      "reviews": "Amet qui ut porro quam non enim. Asperiores culpa qui quas reprehenderit in nihil."
+    },
+    {
+      "id": 14,
+      "name": "Intelligent Rubber Towels",
+      "brand": "Beauty",
+      "description": "Qui doloremque numquam et repellendus maxime autem. Et non itaque voluptatum molestias eum nostrum corporis neque. Incidunt quas eveniet et perspiciatis officiis et. Laboriosam corrupti tempore non facilis nobis soluta error. Qui quasi nobis pariatur praesentium itaque quo non impedit. Modi aut aliquid enim nam neque veniam consectetur consequatur.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "928.00",
+      "quantity": 13312,
+      "rating": 4,
+      "reviews": "Eius quisquam saepe dolores est atque sequi sapiente aperiam possimus. Maiores officiis ut. Aut illo omnis quia libero. Sed animi ea nesciunt ipsa cupiditate sequi quidem. Dolor quia debitis saepe dicta nulla maxime deleniti consequatur. Corporis et illo itaque."
+    },
+    {
+      "id": 15,
+      "name": "Unbranded Steel Pizza",
+      "brand": "Clothing",
+      "description": "Distinctio provident aut pariatur. Facere voluptate omnis rerum magni. Quia est sit et ut voluptas aut doloribus. Dolore vel nesciunt quo recusandae necessitatibus. Dicta accusamus dolorum eos ad non enim omnis.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "104.00",
+      "quantity": 96441,
+      "rating": 4,
+      "reviews": "Ab aspernatur sint. Molestias aut beatae. Optio culpa perferendis molestiae. Dolorem qui et quis rem provident mollitia omnis eos sed."
+    },
+    {
+      "id": 16,
+      "name": "Fantastic Rubber Pizza",
+      "brand": "Health",
+      "description": "Ratione optio sit omnis nihil dolore dignissimos. Non repellendus adipisci eligendi rerum et ad quam et. Voluptas dicta et harum ex quo consectetur consequatur rerum. Mollitia qui sed sint voluptatem dolorum assumenda. Tenetur id sint illum praesentium quam.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "848.00",
+      "quantity": 97057,
+      "rating": 4,
+      "reviews": "Perspiciatis consequatur aut vel repellendus quae delectus similique reiciendis in. Facere magni facere. Iste ad architecto incidunt possimus perspiciatis unde. Unde dolor autem laborum voluptas eveniet ullam tenetur aspernatur."
+    },
+    {
+      "id": 17,
+      "name": "Handmade Granite Bike",
+      "brand": "Electronics",
+      "description": "Quam expedita consequatur et sit quis natus quam voluptas eligendi. Saepe autem nam labore eum omnis voluptas qui repudiandae dicta. Beatae omnis eos similique minima quidem. Voluptas eaque ut.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "983.00",
+      "quantity": 87776,
+      "rating": 4,
+      "reviews": "Blanditiis est culpa vel est culpa. Fuga consequatur aut nihil ipsa. Ea consectetur culpa aut."
+    },
+    {
+      "id": 18,
+      "name": "Awesome Frozen Hat",
+      "brand": "Movies",
+      "description": "Et quaerat pariatur provident optio praesentium est mollitia. Ut at voluptas non molestias est sit quae officia. Magnam quod ipsum. Ullam dolorem voluptatum.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "386.00",
+      "quantity": 19945,
+      "rating": 4,
+      "reviews": "Harum odit consequatur saepe voluptatem sed omnis dolor omnis. Dolorum quod ullam. Ea animi fugit vel delectus earum unde temporibus sequi iste. Explicabo voluptate architecto ratione quasi accusamus a nulla. Error sed dolores nisi cum distinctio rerum aut ratione porro."
+    },
+    {
+      "id": 19,
+      "name": "Rustic Concrete Table",
+      "brand": "Health",
+      "description": "Deleniti tempore reprehenderit amet mollitia. Reprehenderit incidunt quo fuga corrupti. Tempore molestiae recusandae. Dolor quasi laudantium magni dolor.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "649.00",
+      "quantity": 96253,
+      "rating": 4,
+      "reviews": "Alias sint est qui harum maxime in et qui. Non omnis perspiciatis porro dignissimos rerum. Necessitatibus eligendi iste aliquam tempore eligendi dolores pariatur sint."
+    },
+    {
+      "id": 20,
+      "name": "Awesome Wooden Shoes",
+      "brand": "Home",
+      "description": "Accusantium sint sapiente pariatur consequatur reiciendis adipisci aut. Quia magni dolor suscipit nemo itaque nisi animi. Necessitatibus qui ratione repudiandae reiciendis reiciendis quaerat cum. Expedita atque laboriosam cum veniam. Numquam quis rerum qui quae autem et iure. Doloremque ipsam adipisci molestiae unde saepe pariatur aut soluta aliquid.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "434.00",
+      "quantity": 50632,
+      "rating": 4,
+      "reviews": "Est officiis aperiam corporis quo porro reprehenderit magni velit. Quis quidem sit autem dolores rem minus. Magni in quidem."
+    },
+    {
+      "id": 21,
+      "name": "Tasty Granite Pizza",
+      "brand": "Toys",
+      "description": "Corrupti temporibus architecto minima eum sit vero. Nam nam molestiae mollitia quia. Atque hic eius est quas reiciendis. Et qui dolorum voluptatem laborum sunt non magnam natus. Et velit error ipsum eum occaecati et delectus excepturi aut. Suscipit ea natus ipsa aut sit possimus.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "570.00",
+      "quantity": 21434,
+      "rating": 4,
+      "reviews": "Illo quas quia magnam quis quia praesentium et. Quibusdam aut qui numquam reiciendis officia cum. Tempore enim eaque aut. Omnis vero qui dignissimos ipsum ex. Et qui molestias."
+    },
+    {
+      "id": 22,
+      "name": "Intelligent Plastic Mouse",
+      "brand": "Beauty",
+      "description": "In magni molestiae ea distinctio non voluptatibus et eaque. Cupiditate qui dolores saepe nam voluptatem voluptatem enim. Quod blanditiis suscipit rerum provident quo. Consequatur fuga delectus aut deserunt quia.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "169.00",
+      "quantity": 37751,
+      "rating": 4,
+      "reviews": "Sed minus deserunt excepturi facilis. Dolor eum ab tempore. Rerum iste vero quae eaque ullam aliquid beatae illo. Fugiat repellendus sit omnis qui sed soluta nostrum voluptatem. Omnis vero perferendis officiis numquam omnis vel ratione sit. Et omnis consequatur natus neque quod."
+    },
+    {
+      "id": 23,
+      "name": "Intelligent Metal Chair",
+      "brand": "Shoes",
+      "description": "Error dolore cupiditate vel blanditiis consequatur tenetur nesciunt. Exercitationem vero voluptatibus. Aut dolore et nihil maiores officiis omnis aut quo. Aperiam aliquam rerum et. Beatae in facilis commodi molestiae repellendus qui ut aut dolore.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "743.00",
+      "quantity": 88811,
+      "rating": 4,
+      "reviews": "Culpa est sunt sed velit qui quae. Sit quisquam corrupti. Aliquid debitis non dolore."
+    },
+    {
+      "id": 24,
+      "name": "Refined Wooden Fish",
+      "brand": "Electronics",
+      "description": "Suscipit consectetur autem accusamus eveniet fugiat. Quia ut rerum eligendi deserunt doloremque odit labore consectetur ab. Voluptatem officia eaque enim voluptatem vero. A et architecto in qui ea quia et. Cum unde aspernatur veniam beatae dolorum quidem.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "27.00",
+      "quantity": 61924,
+      "rating": 4,
+      "reviews": "Distinctio sit accusamus. Nisi veniam iusto omnis ratione. Et nostrum ducimus. Consequuntur veniam deleniti natus sed aliquid qui. Sed commodi et facilis consequuntur iste et sunt."
+    },
+    {
+      "id": 25,
+      "name": "Rustic Granite Tuna",
+      "brand": "Shoes",
+      "description": "Nulla quos aut quia aut ipsa tenetur. Voluptatem qui possimus laboriosam adipisci ex esse quia quibusdam debitis. Mollitia dolorem quisquam eaque quae sunt et. Voluptatum illum tempore. Quam eveniet molestiae vel aut provident neque officiis dolorem.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "231.00",
+      "quantity": 31274,
+      "rating": 4,
+      "reviews": "A voluptatem quae numquam odio accusantium id. Harum perspiciatis sit adipisci fuga sed. Odit debitis nesciunt itaque totam sunt unde voluptatem. Et quia voluptate qui voluptatem sed. Vel qui possimus sequi consequatur alias alias laboriosam placeat est. Qui doloribus accusamus ut aut facere quam."
+    },
+    {
+      "id": 26,
+      "name": "Handcrafted Wooden Pants",
+      "brand": "Automotive",
+      "description": "Sed debitis aut aspernatur id asperiores officiis non. Tenetur consequatur quo consequatur quaerat. Assumenda beatae sequi. Rerum veritatis et et. Voluptate vel quo quasi voluptatem earum odit et maiores. Rerum iure itaque excepturi veniam odio asperiores hic deleniti vitae.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "128.00",
+      "quantity": 74167,
+      "rating": 4,
+      "reviews": "Ipsa quod sed voluptatem numquam magni dolor cupiditate porro. Magnam deleniti vel sed molestiae modi aut quas fuga debitis."
+    },
+    {
+      "id": 27,
+      "name": "Practical Granite Bike",
+      "brand": "Kids",
+      "description": "Pariatur exercitationem minus enim qui et dolore. Rem eveniet ea. Enim odio omnis repudiandae quia. Voluptatum eum sapiente ut est ex quas quo provident delectus. Dolore eum voluptatem aut qui enim explicabo dolorum est.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "425.00",
+      "quantity": 18103,
+      "rating": 4,
+      "reviews": "Nostrum aperiam at amet doloribus vero. Rerum cum iste. Atque recusandae accusamus."
+    },
+    {
+      "id": 28,
+      "name": "Practical Granite Pizza",
+      "brand": "Beauty",
+      "description": "Et fugit non placeat asperiores cupiditate. Minus modi nihil neque molestias consequatur dolore aliquid et et. Autem perspiciatis at aut aliquid. Qui sed nihil sit ab autem qui exercitationem. Aperiam qui debitis consequatur.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "647.00",
+      "quantity": 90049,
+      "rating": 4,
+      "reviews": "Quas nihil reiciendis nulla et optio debitis ut. Dolorem vel consectetur. Ad temporibus totam distinctio numquam at necessitatibus."
+    },
+    {
+      "id": 29,
+      "name": "Ergonomic Frozen Pizza",
+      "brand": "Sports",
+      "description": "Quisquam dolorem atque voluptates est similique tenetur aspernatur qui. Et perferendis nulla. Eaque voluptates distinctio qui eum qui tempore quisquam. Similique similique et non.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "486.00",
+      "quantity": 9149,
+      "rating": 4,
+      "reviews": "Corporis similique vitae. Modi ipsam sed velit libero explicabo similique. Optio est corporis dignissimos sapiente ad nesciunt. Maiores id modi a id."
+    },
+    {
+      "id": 30,
+      "name": "Practical Cotton Computer",
+      "brand": "Music",
+      "description": "Voluptatum consequatur laudantium et sunt vel eligendi consectetur quia. Aperiam mollitia quae ut similique. Nostrum voluptatem veniam velit doloremque autem quis doloremque reprehenderit. Numquam iusto ex cumque ex. Accusamus illo est sint ea.",
+      "imageUrl": "../../../assets/web/images/c7bde508f128d7b1fd10a224d18a5333.png",
+      "price": "709.00",
+      "quantity": 72590,
+      "rating": 4,
+      "reviews": "Fugit maxime corrupti consequatur doloremque incidunt eveniet aut deserunt. Et dignissimos tempore qui eveniet at enim id rerum. Delectus aliquid iure iure sit eveniet alias."
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Abhijeet",
+      "company": "IBL",
+      "email": "khengar.abhijit@gmail.com",
+      "password": "12345678",
+      "address": "Surat",
+      "country": "IN",
+      "city": "Surat",
+      "phone": "987984984",
+      "bag": null
+    }
+  ],
+  "currUser": [
+    {
+      "id": 1,
+      "name": "Abhijeet",
+      "company": "IBL",
+      "email": "khengar.abhijit@gmail.com",
+      "password": "12345678",
+      "address": "Surat",
+      "country": "IN",
+      "city": "Surat",
+      "phone": "987984984",
+      "bag": null
+    }
+  ]
+}
