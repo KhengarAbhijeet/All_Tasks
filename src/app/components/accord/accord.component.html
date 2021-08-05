@@ -1,0 +1,22 @@
+<accordion [isAnimated]="true">
+  <accordion-group heading="Some Header">
+    This content is straight in the template.
+  </accordion-group>
+  <accordion-group heading="Group 1" #g1 (isOpenChange)="log($event,s1.textContent)">
+    <p #s1 [hidden]=true>Group 1</p>
+    <p>Some content</p>
+  </accordion-group>
+  <accordion-group heading="Group 2" #g2 (isOpenChange)="log($event,s2.textContent)">
+    <p #s2 [hidden]=true>Group 2</p>
+    <p>Some content</p>
+  </accordion-group>
+  <accordion-group #g3 (isOpenChange)="log($event,s3.textContent)">
+    <button class="btn btn-link btn-block clearfix" accordion-heading type="button">
+      <div class="pull-left float-left">I can have markup!</div>
+      <span class="badge badge-secondary float-right pull-right">Some HTML here</span>
+    </button>
+
+    <p #s3 [hidden]=true>Group 3</p>
+    <p>Some content</p>
+  </accordion-group>
+</accordion>
