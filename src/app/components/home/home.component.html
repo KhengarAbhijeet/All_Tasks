@@ -1,0 +1,5 @@
+<div class="container" *ngFor="let u of users">
+  <h4>Name : {{u.payload.doc.data().name}}</h4>
+  <p>Email : {{u.payload.doc.data().email}}</p>
+  <p>Gender : {{u.payload.doc.data().gender}}</p>
+</div>

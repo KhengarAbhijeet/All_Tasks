@@ -1,0 +1,42 @@
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark bg-warning text-light fixed-top">
+    <a href="" class="navbar-brand">FireBase Demo</a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#firenav" aria-controls="firenav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="firenav" class="collapse navbar-collapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item" routerLinkActive="active">
+          <a routerLink="home" class="nav-link">Home</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto" *ngIf="isLoggedIn===false">
+        <li class="nav-item" routerLinkActive="active">
+          <a routerLink="register" class="nav-link">Register</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a routerLink="login" class="nav-link">Login</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto" *ngIf="isLoggedIn===true">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle custfont" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            {{currUser.name}}
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item custfont" routerLink="profile">
+              <span class="mr-2"><i class="far fa-user"></i></span>
+              Profile
+            </a>
+            <div class="dropdown-divider"></div>
+            <a role="button" class="dropdown-item custfont" (click)="signOut()" *ngIf="isLoggedIn===true">
+              <span class="mr-2"><i class="fas fa-sign-out-alt"></i></span>
+              Sign Out
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>

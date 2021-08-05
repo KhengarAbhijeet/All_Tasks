@@ -1,0 +1,28 @@
+<div class="col-10 col-md-6 p-3 mx-auto shadow rounded">
+  <h3 class="h3">Edit</h3>
+  <div class="form-group">
+    <label for="umail">Email</label>
+    <input type="email" name="umail" [(ngModel)]="user.email" placeholder="Enter email" class="form-control" disabled>
+  </div>
+  <div class="form-group">
+    <label for="uname">Name</label>
+    <input type="text" name="name" [(ngModel)]="user.name" placeholder="Enter name" class="form-control">
+  </div>
+  <div class="form-group">
+    <label for="ugen">Gender : &nbsp;</label>
+    <input type="radio" name="ugen" [(ngModel)]="user.gender" placeholder="" class="" value="Male">&nbsp;Male
+    <input type="radio" name="ugen" [(ngModel)]="user.gender" placeholder="" class="" value="Female">&nbsp;Female
+  </div>
+  <div class="form-group">
+    <label for="uphone">Phone</label>
+    <input type="number" name="uphone" [(ngModel)]="user.phone" placeholder="Enter phone number" class="form-control">
+  </div>
+  <div class="form-group">
+    <label for="upass">Password</label>
+    <input type="password" name="upass" [(ngModel)]="user.password" placeholder="Enter password" class="form-control">
+  </div>
+  <div class="form-group text-light">
+    <button type="button" class="btn btn-light text-dark" on-click="cancel()">Cancel</button>
+    <button type="button" class="btn btn-primary mr-3" on-click="updateUser()">Update</button>
+  </div>
+</div>
