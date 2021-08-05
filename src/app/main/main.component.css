@@ -1,0 +1,22 @@
+.main-div{
+  min-height: 60vh;
+  /* overflow-y: visible;
+  overflow-x: hidden; */
+}
+
+.contact-list{
+  height: 70vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.contact-list::-webkit-scrollbar {
+  display: none;
+}
+
+.create-room-btn{
+  position: absolute;
+  bottom: 0;
+  right: 1vh;
+}
+

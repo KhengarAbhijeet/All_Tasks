@@ -1,0 +1,21 @@
+<div class="row" *ngFor="let m of messages" [ngClass]="m.sender==currentUser.email ? 'justify-content-end' : 'justify-content-start'">
+  <div class="my-1 bg-secondary px-2 mx-2 rounded">
+    <div class="row">
+      <!-- <div class="col-12 col-md-12" *ngIf="m.sender!==currentUser.email">
+        <small>
+          {{currentRecipent.name}}
+        </small>
+      </div> -->
+      <div class="col-12 col-md-12">
+        <p class="m-0">
+          {{m.message}}
+          <span>
+            <small class="small time">
+              {{m.time}}
+            </small>
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

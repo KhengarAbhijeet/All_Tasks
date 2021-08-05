@@ -1,0 +1,27 @@
+{
+  "users":{
+    "id":"",
+    "name":"",
+    "email":"",
+    "password":"",
+    "rooms":[
+      {
+        "room_id":"",
+        "user_id":""
+      }
+    ]
+  },
+  "rooms":{
+    "room_id":"",
+    "room_type":"",
+    "users":["",""],
+    "messages":[
+      {
+        "sender":"",
+        "content":"",
+        "date":"",
+        "time":""
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+<div class="shadow p-2 m-0">
+  <h4>
+    <img src="https://www.shareicon.net/data/512x512/2015/10/05/651222_man_512x512.png" alt="pro" class="rounded-circle shadow p-0 mx-2 bg-transparent" height="50px">
+    {{currentUser.name}}
+    <span class="text-right float-right dropleft">
+      <button type="submit" class="btn btn-transparent text-light dropdown-toggler" data-toggle="dropdown">
+        <i class="fas fa-ellipsis-v"></i>
+      </button>
+      <div class="dropdown-menu" aria-labelledby="optionsDropdown">
+        <a class="dropdown-item custfont" routerLink="profile">
+          <span class="mr-2"><i class="far fa-user"></i></span>
+          Profile
+        </a>
+        <div class="dropdown-divider"></div>
+        <a role="button" class="dropdown-item custfont" (click)="signOut()">
+          <span class="mr-2"><i class="fas fa-sign-out-alt"></i></span>
+          Sign Out
+        </a>
+      </div>
+    </span>
+  </h4>
+</div>

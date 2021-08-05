@@ -1,0 +1,22 @@
+.chats{
+  height: 65vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: rgb(78, 211, 166);
+}
+.textarea{
+  resize: none;
+  overflow-y: scroll;
+}
+.chats::-webkit-scrollbar, .textarea::-webkit-scrollbar {
+  display: none;
+}
+
+.btn-send{
+  border-radius: 30px;
+}
+
+.time{
+  color: rgb(209, 209, 209);
+  font-size: xx-small;
+}

@@ -1,0 +1,24 @@
+<div class="col-11 col-md-4 mx-auto mt-5 bg-dark main-div txt">
+  <div class="row">
+    <div class="col-12 col-md-12 text-center mb-4">
+      <h4 class="text-center text-light heading-top txt bg-primary">
+        Login
+      </h4>
+    </div>
+    <div class="col-12 col-md-12">
+      <div class="form-group">
+        <input type="email" name="email" [(ngModel)]="user.email" class="form-control txt" placeholder="email id">
+      </div>
+      <div class="form-group">
+        <input type="password" name="password" [(ngModel)]="user.password" class="form-control txt" placeholder="password">
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-success txt w-100" (click)="onLogin()">Login</button>
+      </div>
+      <div class="form-group">
+        <a routerLink="../register" class="btn btn-info txt w-100">Don't have an account Register</a>
+      </div>
+    </div>
+    <div class="col-12 col-md-12"></div>
+  </div>
+</div>

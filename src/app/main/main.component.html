@@ -1,0 +1,58 @@
+<div class="">
+  <div class="col-12 col-md-10 mx-auto mt-5 bg-light rounded main-div">
+    <div class="row">
+      <div class="col-0 col-md-4 bg-secondary text-light rounded-left">
+        <div class="row">
+          <div class="col-12 col-md-12 p-0 my-0">
+            <app-header></app-header>
+          </div>
+          <div class="col-12 col-md-12 p-0 my-0 contact-list" *ngIf="isCreatingRoom !== true">
+            <ul class="nav flex-column">
+              <li class="nav-item" *ngFor="let c of chatList;index as i">
+                <a class="nav-link d-block text-light bg-transparent shadow-sm my-0 py-2" role="button" (click)="openChat(c.user_id)">
+                  <!-- <span class="rounded-circle bg-white text-dark">
+                    {{i+1}}
+                  </span> -->
+                  <img src="https://www.pngarts.com/files/11/Avatar-Free-PNG-Image.png" alt="pro" class="rounded-circle shadow p-0 mx-2 bg-transparent" height="50px">
+                  {{c.user?.name}}
+                </a>
+              </li>
+            </ul>
+            <div class="float-right create-room-btn">
+              <a type="submit" class="mr-2 text-light" (click)="changeCreatingStatus()">
+                <h3>
+                  <i class="fas fa-comment-medical"></i>
+                </h3>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 p-0 my-0 contact-list" *ngIf="isCreatingRoom === true">
+            <div class="row">
+              <button type="submit" class="btn btn-transparent rounded-circle float-left" (click)="changeCreatingStatus()">
+                <i class="fas fa-arrow-left"></i>
+              </button>
+            </div>
+            <ul class="nav flex-column">
+              <li class="nav-item" *ngFor="let c of users;index as i">
+                <a class="nav-link d-block text-light bg-transparent shadow-sm my-0 py-2" role="button" (click)="openChat(c.id)">
+                  <!-- <span class="rounded-circle bg-white text-dark">
+                    {{i+1}}
+                  </span> -->
+                  <img src="https://www.pngarts.com/files/11/Avatar-Free-PNG-Image.png" alt="pro" class="rounded-circle shadow p-0 mx-2 bg-transparent" height="50px">
+                  {{c.name}}
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- <div class="col-12 col-md-12 p-0 my-0">
+            <app-footer></app-footer>
+          </div> -->
+        </div>
+      </div>
+      <div class="col-12 col-md-8 text-dark">
+        <app-chats [currentRecipent]="currentRecipent" *ngIf="isChatOpened===true"></app-chats>
+        <!-- <router-outlet></router-outlet> -->
+      </div>
+    </div>
+  </div>
+</div>
